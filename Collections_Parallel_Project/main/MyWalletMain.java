@@ -86,8 +86,20 @@ public class MyWalletMain {
 			case 6:
 				System.out.println("Enter your Account Number");
 				acc=sc.next();
-				wservice.print(acc);
+				List<String> lii=wservice.print(acc);
+				for(String m:lii)
+				{
+					if(m.charAt(0)=='+')
+					{
+						System.out.println("Credited : "+m.substring(1));
+					}
+					else
+					{
+						System.out.println("Debited : "+m.substring(1));
+					}
+				}
 				break;
+				
 				
 			case 7:
 				System.out.println("Thanks for Visting!");
