@@ -168,8 +168,9 @@ public class MyWalletDaoImpl implements MyWalletDao{
 		
 	}
 
+	
 	@Override
-	public void print(String acc) {
+	public List<String> print(String acc) {
 		// TODO Auto-generated method stub
 		int flag=0;
 		for(MyWallet m1:li)
@@ -178,23 +179,14 @@ public class MyWalletDaoImpl implements MyWalletDao{
 			{
 				flag=1;
 				List<String>lii=m1.getList();
-				for(String m:lii)
-				{
-					if(m.charAt(0)=='+')
-					{
-						System.out.println("Credited : "+m.substring(1));
-					}
-					else
-					{
-						System.out.println("Debited : "+m.substring(1));
-					}
-				}
+				return lii;
 			}
 		}
 		if(flag==0)
 		{
-			System.out.println("Sorry!! no user with this Account No"); 
+			String s="Sorry!! no user with this Account No"; 
 		}	
+		return null;
 	}		
 }		
 		
