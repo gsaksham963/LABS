@@ -1,0 +1,19 @@
+.p1{
+	color: #ff3434;
+}
+.p2{
+	color: rgb(255,255,0);
+}
+.p3{
+	color: rgba(255,255,0,0.4);
+}
+.p4{
+	/* hsl(hue,saturation,lightness)*/
+	color: hsl(180, 100%, 50%);
+}
+.p5{
+	color: hsla(0,100%,50%,0.6);
+}
+img{
+	border-radius: 20px;
+}

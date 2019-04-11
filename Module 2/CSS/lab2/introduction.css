@@ -1,0 +1,9 @@
+p{
+	text-transform: capitalize;
+	text-indent: 100px;
+	color: #ff2345;
+}
+h1
+{
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}

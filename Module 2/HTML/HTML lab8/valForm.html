@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form Methods</title>
+</head>
+<body>
+<h1 align="center">Candidate Information</h1>
+<form action="mailto:gsaksham963@gmail.com" name="ab" method="post"
+enctype="multipart/form-data">
+<table style="background-color:skyblue" border="1" align="center">
+	<tr>
+		<th><b>Name:</b></th>
+		<th align="left"><input type="text" name="t1" size="25" maxlength="15" required=""></th>
+	</tr>
+	<tr>
+		<th><b>Password:</b></th>
+		<th align="left"><input type="text" name="t2" size="25" maxlength="15"></th>
+	</tr>
+	<tr>
+		<th><b>Phone number:</b></th>
+		<th align="left"><input type="number" name="phn" size="25" maxlength="10"></th>
+	</tr>
+	
+	<tr>
+		<th><b>Gender</b></th>
+		<th align="left">
+			<input type="radio" name="t3">Male
+			<input type="radio" name="t3">Female
+		</th>
+	</tr>
+	<tr>
+		<th><b>Date of Birth:</b></th>
+		<th align="left">
+			<input type="date" name="t4">
+		</th>
+	</tr>
+	
+	<tr>
+		<th><b>Email:</b></th>
+		<th align="left"><input type="Email" name="t5" size="25" maxlength="4"></th>
+	</tr>
+	<tr>
+		<th><b>Highest Qualification</b></th>
+		<th align="left">
+			<select>
+				<option>MCA</option>
+				<option>BCA</option>
+				<option>MBA</option>
+				<option>MA</option>
+				<option>M.tech</option>	
+				<option>B.tech</option>
+			</select>
+		</th>
+	</tr>
+	<tr>
+		<th><b>Courses Interested in:</b></th>
+		<th align="left">
+			<input type="checkbox" name="c1">Java
+			<input type="checkbox" name="c2">HTML 5
+			<input type="checkbox" name="c3">CSS 3
+			<input type="checkbox" name="c4">Angular JS
+			<input type="checkbox" name="c5">JQuery
+			
+		</th>
+	</tr>
+	
+	<tr>
+		<th><b>Comments: (Mention External Certification if any)</b></th>
+		<th>
+			<textarea name="addr" Rows="5" cols="50" tabindex="0" accesskey="A" placeholder="write comments"></textarea>
+		</th>
+	</tr>
+	<tr>
+		<th><b>Upload Degree/ External Certification:</b></th>
+		<th align="left">
+			<input type="Upload" name="u1" value="Choose Files"> No file choosen
+		</th>
+	</tr>
+	<tr>
+		<th></th>
+		<th align="left">
+			<button name="b1" value="Submit Infomation">Submit Infomation</button> &nbsp &nbsp
+			<button name="b2" value="Clear">Clear</button>
+		</th>
+	</tr>
+	
+</table>
+</form>
+</body>
+</html>

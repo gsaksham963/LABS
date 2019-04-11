@@ -1,0 +1,25 @@
+*{
+	color: blue;
+}
+p{
+	color: grey;
+}
+.a1{
+	color: brown;
+	font-size: 30px;
+}
+.a2{
+	color: pink;
+}
+#a3{
+	color: yellow;
+}
+.p1{
+	color: green;
+}
+.p2{
+	color: cyan;
+}
+.p3{
+	color: lightgreen;
+}
