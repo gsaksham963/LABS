@@ -182,11 +182,12 @@ public class MyWalletDaoImpl implements MyWalletDao{
 				return lii;
 			}
 		}
+		String s;
 		if(flag==0)
 		{
-			String s="Sorry!! no user with this Account No"; 
+			s="Sorry!! no user with this Account No"; 
 		}	
-		return null;
+		return s;
 	}		
 }		
 		
