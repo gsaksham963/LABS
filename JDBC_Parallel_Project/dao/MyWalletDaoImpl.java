@@ -32,7 +32,7 @@ public class MyWalletDaoImpl implements MyWalletDao{
 			int x=ps.executeUpdate();
 			if(x!=0)
 			{
-				res= "Account Succesfully Created";
+				res= res= "Successfully Added In Your Acccount Number :: "+(act1);
 			}
 			else
 			{
